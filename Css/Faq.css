@@ -1,95 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #E5E5E5;
+body {
+  background-color: #e5e5e5;
 }
 
-.mainFaqHeading{
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mainFaqHeading {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.innerFaqHeading{
-    width: 93%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.innerFaqHeading {
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.innerFaqHeading h1{
-    font-size: 3rem;
-    font-family: 'Poppins';
-    font-weight: 600;
-    letter-spacing: 2px;
+.innerFaqHeading h1 {
+  font-size: 3rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  letter-spacing: 2px;
 }
-.innerFaqHeading p{
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    color: #444760;
-    font-weight: 400;
-}
-
-
-.mainSearch{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-}
-.innerSearch{
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.searching{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 999px;
-    height: 50px;
-    box-shadow: 0 2px 8px 2px rgba(0,0,0,0.2);
-}
-.searchIcon{
-    /* width: 6%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
-}
-.search{
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
-}
-.searchArea{
-    width: 95%;
-    background-color: red;
-   height: 80%;
-   display: flex;
-   justify-content: flex-start;
-   align-items: stretch;
-}
-.searchArea input{
-    width: 100%;
-    padding-left: 20px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    outline: none;
-    border: none;
-    font-size: 1.2rem;
+.innerFaqHeading p {
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: #444760;
+  font-weight: 400;
 }
 
-
+.mainSearch {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.innerSearch {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searching {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 999px;
+  height: 70px;
+  /* height:50% */
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.searchIcon {
+  /* width: 6%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.search {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.searchArea {
+  width: 95%;
+  /* background-color: red; */
+  height: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.searchArea input {
+  width: 100%;
+  padding-left: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+}
+.searchInput {
+  border-radius: 999px;
+}
 
 /* FAQ  */
 .faq {
@@ -115,7 +116,7 @@ body{
   align-items: center;
 }
 .heading_faq h2 {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-weight: bold;
   font-size: 4rem;
   /* margin-right: 20px; */
@@ -125,7 +126,7 @@ body{
   width: 80px;
 }
 .faq_heading p {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: #999;
   text-align: right;
 }
@@ -133,7 +134,7 @@ body{
   margin-bottom: 20px !important;
   background-color: #fff !important;
   box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
+  border-radius: 18px;
 }
 .accordion-item button {
   border: none !important;
@@ -142,7 +143,7 @@ body{
   background-color: #fff !important;
   color: #000;
   background-color: #ffff !important;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400 !important;
 }
 .accordion-item button:focus {
@@ -161,10 +162,10 @@ body{
   font-weight: bold;
 }
 .accordion-item h2 {
-  font-family: 'Work Sans' !important;
+  font-family: "Work Sans" !important;
   font-weight: bold !important;
   font-size: 22px !important;
 }
 .accordion-body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
