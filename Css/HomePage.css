@@ -859,7 +859,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -30%;
+  top: -55%;
   transform: translateY(50%);
 }
 .innerGetEstimate {
@@ -878,15 +878,35 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.estimateText {
+  margin-top: 2%;
+}
 .estimateText h3 {
+  /* font-family: "Poppins"; */
+  /* font-size: 2rem;
+  font-weight: 400; */
+  /* color: #1b2050; */
+mar
   font-family: "Poppins";
-  font-size: 2rem;
-  font-weight: 400;
-  color: #1b2050;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+
+  color: #0b132a;
 }
 .estimateText p {
   margin-top: 2%;
   font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+
   color: #4f5665;
 }
 .estimateBtnArea {
