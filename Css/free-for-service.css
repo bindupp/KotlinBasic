@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.landingPage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.innerLandingPage {
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.landingPageHeading h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-bottom: 4%;
+  color: #1b2050;
+  font-size: 1.8rem;
+}
+.landingPageHeading p {
+  font-family: "Poppins";
+  font-weight: 300;
+  margin-bottom: 5%;
+  color: #1b2050;
+}
+.landingPageBtn button {
+  width: 40%;
+  height: 60px;
+  outline: none;
+  border: none;
+  background-color: #1b2050;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 0.9rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.revenue-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebfff4;
+}
+.innerRevenueSection {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  flex-direction: column;
+}
+.innerRevenueSection .revenue-heading h1 {
+  /* position: absolute; */
+  /* height: 94px; */
+  /* left: 26.46%; */
+  /* right: 26.88%; */
+  /* top: 907px; */
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 130%;
+  /* or 47px */
+
+  text-align: center;
+
+  color: #1b2050;
+}
+/* .featureImage,
+.featureList {
+  width: 50%;
+} */
+.featureImage img {
+  width: 100%;
+  object-fit: contain;
+}
+.featureList {
+  margin-left: 4%;
+}
+.featuresHeading h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-bottom: 4%;
+  color: #0b132a;
+  font-size: 3rem;
+  width: 70%;
+}
+.featuresHeading p {
+  font-family: "Poppins";
+  font-weight: 300;
+  margin-bottom: 5%;
+  color: #4f5665;
+}
+.featuresPoints ul {
+  list-style: none;
+}
+.featuresPoints ul li {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+.featuresPoints ul li div p {
+  font-family: "Poppins";
+  color: #4f5665;
+}
+.rightCheck {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #2fab73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.rightCheck i {
+  color: #fff;
+  font-size: 12px;
+}
