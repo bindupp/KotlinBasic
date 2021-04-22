@@ -25,8 +25,11 @@ body {
 .innerFaqHeading h1 {
   font-size: 3rem;
   font-family: "Poppins";
+  font-style: normal;
   font-weight: 600;
-  letter-spacing: 2px;
+  line-height: 150%;
+  text-align: center;
+  color: #444760;
 }
 .innerFaqHeading p {
   font-family: "Poppins";
@@ -95,7 +98,6 @@ body {
 /* FAQ  */
 .faq {
   width: 100%;
-  /* display: none; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,12 +141,14 @@ body {
 .accordion-item button {
   border: none !important;
   outline: none !important;
-  font-size: 18px;
   background-color: #fff !important;
-  color: #000;
   background-color: #ffff !important;
-  font-family: "Poppins";
   font-weight: 400 !important;
+  font-family: "Poppins";
+  font-size: 24px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #444760;
 }
 .accordion-item button:focus {
   border: none !important;
@@ -168,4 +172,10 @@ body {
 }
 .accordion-body {
   font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #878787;
 }

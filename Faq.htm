@@ -11,8 +11,13 @@
     <link rel="stylesheet" href="./Css/Faq.css">
     <link rel="stylesheet" href="./Css/HomePage.css">
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
 </head>
 
 <body>
@@ -35,11 +40,21 @@
 
                 <ul class="nav-links">
                     <li class="nav-link"><a href="./index.htm">Home</a></li>
-                    <li class="nav-link"><a href="./RemotePatient.htm">Product</a></li>
-                    <li class="nav-link"><a href="#">Case Studies</a></li>
-                    <li class="nav-link"><a href="#">About</a></li>
-                    <li class="nav-link"><a href="#">Careers</a></li>
-                    <li class="nav-link"><a href="#" class="open">FAQ</a></li>
+                    <!-- <li class="nav-link"><a href="./free-for-services.html">Services</a></li> -->
+                    <div class="dropdown nav-link" class=" open">
+                        <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a href="./free-for-services.html">Free-For-Service</a></li>
+                            <li><a href="./value-based-care.html">Value-Based-Care</a></li>
+                        </ul>
+                    </div>
+                    <li class="nav-link"><a href="#">Blog</a></li>
+                    <li class="nav-link"><a href="./about.html">About</a></li>
+                    <li class="nav-link"><a href="./affiliate.html">Affiliate</a></li>
+                    <li class="nav-link"><a href="#" class="open">FAQs</a></li>
                 </ul>
             </header>
         </div>
@@ -48,7 +63,7 @@
 
     <section class="mainFaqHeading">
         <div class="innerFaqHeading">
-            <h1>FAQ</h1>
+            <h1>FAQs</h1>
             <p>frequently asked question</p>
         </div>
     </section>
@@ -74,7 +89,7 @@
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Do I TroubleShoot the devices?
+                            1 Do I TroubleShoot the devices?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -88,7 +103,7 @@
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            How can I track my readings?
+                            2 How can I track my readings?
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -102,7 +117,7 @@
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            How much does this program cost?
+                            3 How much does this program cost?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -117,22 +132,33 @@
                     <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            How do I use my Blood Pressure Cuff?
+                            4 How do I use my Blood Pressure Cuff?
                         </button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Practice using the monitor with your provider to make sure you are taking your blood
-                            pressure correctly.
-                            Your arm should be supported, with your upper arm at heart level and feet on the floor (back
-                            supported, legs uncrossed).
-                            It is best to measure your blood pressure after you rest for at least 5 minutes.
-                            DO NOT take your blood pressure when you are under stress, have had caffeine, or used a
-                            tobacco product in the last 30 minutes, or have recently exercised.
-                            Take at least 2 readings 1 minute apart in the morning before taking medicines and in
-                            evening before eating supper. Try to measure and record BP daily for 5 days and then report
-                            your results to your provider.
+                            <ul>
+                                <li>Practice using the monitor with your provider to make sure you are taking your blood
+                                    pressure correctly.</li>
+                                <li>Your arm should be supported, with your upper arm at heart level and feet on the
+                                    floor
+                                    (back supported, legs uncrossed).</li>
+                                <li>
+                                    It is best to measure your blood pressure after you rest for at least 5
+                                    minutes.
+                                </li>
+                                <li>
+                                    DO NOT take your blood pressure when you are under stress, have had caffeine, or
+                                    used a
+                                    tobacco product in the last 30 minutes, or have recently exercised.
+                                </li>
+                                <li>Take at least 2 readings 1 minute apart in the morning before taking medicines and
+                                    in
+                                    evening before eating supper. Try to measure and record BP daily for 5 days and then
+                                    report
+                                    your results to your provider.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -140,7 +166,7 @@
                     <h2 class="accordion-header" id="headingFive">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            Do I need to connect to Wi-Fi or download any apps?
+                            5 Do I need to connect to Wi-Fi or download any apps?
                         </button>
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
@@ -157,28 +183,51 @@
                     <h2 class="accordion-header" id="headingSix">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            How to prepare & use Glucometers?
+                            6 How to prepare & use Glucometers?
                         </button>
                     </h2>
                     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Before you start testing, set out the Glucometer, the test strip, lancet, lancing device, an
-                            alcohol pad.
-                            To prevent infection, wash your hands. It is okay to just use the alcohol swab if you are
-                            not by a sink. If you wash your hands thoroughly, usage of an alcohol swab is not required.
-                            To make the blood flow easier, it sometimes helps to warm your hands first. Run your hands
-                            under warm water or rub them together briskly to warm them up. You need to be sure to dry
-                            them well as wet hands can dilute the blood sample, resulting in a lower number and wrong
-                            results.
-                            Turn on the glucometer and when the machine is ready, place the blood on the strip.
-                            Make sure your hands are dry and wipe the selected area with an alcohol prep pad. Wait until
-                            the alcohol evaporates.
-                            Now, pierce your fingertips on the side of your finger, between the tip of your nail to the
-                            bottom of your fingernail. Avoid the pads as they can pinch more.
-                            Place the drop of blood at the side of or on the strip.
-                            A few moments will be taken by the glucometer to calculate the blood sugar reading. Follow
-                            your doctor’s order for whatever blood sugar reading you get.
+                            <ul>
+                                <li> Before you start testing, set out the Glucometer, the test strip, lancet, lancing
+                                    device,
+                                    an
+                                    alcohol pad.</li>
+                                <li> To prevent infection, wash your hands. It is okay to just use the alcohol swab if
+                                    you
+                                    are
+                                    not by a sink. If you wash your hands thoroughly, usage of an alcohol swab is not
+                                    required.
+                                </li>
+                                <li> To make the blood flow easier, it sometimes helps to warm your hands first. Run
+                                    your
+                                    hands
+                                    under warm water or rub them together briskly to warm them up. You need to be sure
+                                    to
+                                    dry
+                                    them well as wet hands can dilute the blood sample, resulting in a lower number and
+                                    wrong
+                                    results.</li>
+                                <li> Turn on the glucometer and when the machine is ready, place the blood on the strip.
+                                </li>
+                                <li> Make sure your hands are dry and wipe the selected area with an alcohol prep pad.
+                                    Wait
+                                    until
+                                    the alcohol evaporates.</li>
+                                <li>Now, pierce your fingertips on the side of your finger, between the tip of your nail
+                                    to
+                                    the
+                                    bottom of your fingernail. Avoid the pads as they can pinch more.</li>
+                                <li>
+                                    Place the drop of blood at the side of or on the strip.
+                                </li>
+                                <li>
+                                    A few moments will be taken by the glucometer to calculate the blood sugar reading.
+                                    Follow
+                                    your doctor’s order for whatever blood sugar reading you get.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -186,24 +235,36 @@
                     <h2 class="accordion-header" id="headingSeven">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                            How to add the KardiaMobile App to your phone?
+                            7 How to add the KardiaMobile App to your phone?
                         </button>
                     </h2>
                     <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            To add the KariaMobile device for the patient, please go to the member details page of the
-                            patient. You can navigate to the member details page either by clicking the member on the
-                            home page, or by searching the member by name on the top search bar. There, please click the
-                            “device” sidebar menu.
-                            On the main page, click the “Get a Referral Code” button.
-                            Immediately after you click the button, you will see a new referral code on the page. The
-                            patient’s smart phone app (the Kardia app) will ask for a referral code. Please use this
-                            code to pair the device with Orma RPM Platform.
-                            After following a standard sign-up process, the Kardia app will ask if the patient has a
-                            referral code. Please click “Yes”.
-                            Use the referral code you generated for the patient from Orma RPM Platform. Now, the
-                            KardiaMobile is paired with Orma RPM Platform!
+                            <ul>
+                                <li>To add the KariaMobile device for the patient, please go to the member details page
+                                    of the
+                                    patient. You can navigate to the member details page either by clicking the member
+                                    on the
+                                    home page, or by searching the member by name on the top search bar. There, please
+                                    click the
+                                    “device” sidebar menu.</li>
+                                <li> On the main page, click the “Get a Referral Code” button.
+                                </li>
+                                <li>
+                                    Immediately after you click the button, you will see a new referral code on
+                                    the page. The
+                                    patient’s smart phone app (the Kardia app) will ask for a referral code.
+                                    Please use this
+                                    code to pair the device with Orma RPM Platform.
+                                </li>
+                                <li> After following a standard sign-up process, the Kardia app will ask if the patient
+                                    has a
+                                    referral code. Please click “Yes”.</li>
+                                <li> Use the referral code you generated for the patient from Orma RPM Platform. Now,
+                                    the
+                                    KardiaMobile is paired with Orma RPM Platform!</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -222,8 +283,8 @@
                     <h2>Orma Health</h2>
                 </div>
                 <div class="footerInfo">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna nascetur scelerisque quam purus.
-                    </p>
+                    <p>1117 S. California Ave
+                        Palo Alto, CA 94304 </p>
                 </div>
                 <div class="copyrights">
                     <p>©Orma Health LTD 2020. All rights reserved</p>
