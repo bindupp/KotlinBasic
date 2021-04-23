@@ -13,8 +13,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin-top: -8%;
+  /* height: 100vh; */
+  /* margin-top: -8%; */
+  margin-bottom: 7%;
 }
 .innerLandingPage {
   width: 93%;
@@ -194,8 +195,6 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
-  /* font-size: 30px; */
-  /* line-height: 45px; */
   color: #333333;
 }
 .revenue-points {
@@ -217,7 +216,6 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  /* font-size: 24px; */
   line-height: 36px;
   color: #333333;
 }
@@ -228,7 +226,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 5%; */
   flex-direction: column;
 }
 .benefit-heading-div {
@@ -300,11 +297,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background-color: greenyellow; */
   background-color: #e5e5e5;
   padding-bottom: 5%;
 }
-.device-suit-section {
+.inner-device-suit {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -313,7 +310,6 @@
 .device-suit-heading {
   width: 60%;
   margin: auto;
-  /* background-color: grey; */
   text-align: center;
   margin-top: 8%;
 }
@@ -336,13 +332,43 @@
   color: #1b2050;
 }
 .device-suit-photo {
+  width: 80%;
   margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative; */
 }
 .device-suit-text {
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  background-color: greenyellow;
+  /* align-items: center; */
+  position: relative;
 }
-
+.device-suit-text h5:nth-child(1) {
+  position: absolute;
+  left: 5%;
+}
+.device-suit-text h5:nth-child(2) {
+  position: absolute;
+  left: 27%;
+}
+.device-suit-text h5:nth-child(3) {
+  position: absolute;
+  left: 45%;
+}
+.device-suit-text h5:nth-child(4) {
+  position: absolute;
+  right: 26%;
+}
+.device-suit-text h5:nth-child(5) {
+  position: absolute;
+  right: -1%;
+}
 /* on-boarding section */
 .on-boarding-section {
   width: 100%;
