@@ -18,13 +18,15 @@
   margin-bottom: 7%;
 }
 .innerLandingPage {
-  width: 93%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding-left: 4%;
 }
 .landingPageContent {
   width: 50%;
+  padding-left: 3%;
+  padding-top: 3%;
 }
 .landingPageHeading h1 {
   font-family: "Poppins";
@@ -56,6 +58,8 @@
 .landingPageImage {
   display: flex;
   flex-direction: column;
+  padding-top: 4%;
+  padding-right: 2%;
 }
 .landingPageImage div:nth-child(1),
 .landingPageImage div:nth-child(2) {
@@ -108,6 +112,7 @@
   background-color: #fafafa;
   font-family: "Poppins";
   align-items: center;
+  margin-top: 3%;
 }
 .innerRevenueSection {
   width: 100%;
@@ -128,7 +133,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  /* font-size: 36px; */
   line-height: 130%;
   text-align: center;
   color: #1b2050;
@@ -137,7 +142,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  /* font-size: 24px; */
   line-height: 130%;
   text-align: center;
   color: #1b2050;
@@ -227,16 +232,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 3%;
 }
 .benefit-heading-div {
   margin-top: 6%;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
 }
 .benefit-heading-div h1 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  /* font-size: 36px; */
   line-height: 130%;
   text-align: center;
   color: #1b2050;
@@ -245,23 +251,37 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  background-color: #fff;
+  /* height: max-content; */
 }
 .benefitCardsSection {
-  width: 30%;
+  width: 28%;
   margin: 1rem;
   background-color: #fff;
   min-height: 300px;
   display: flex;
   justify-content: center;
-  overflow: hidden;
+  /* align-items: center; */
+  /* overflow: hidden; */
+  position: relative;
+}
+.rightBorder {
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 50%;
+  background-color: #eeeff2;
+  right: 0;
+  transform: translateX(10px);
 }
 .benefitCardsSection .card-img-bg {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 15%;
+  /* width: 15%; */
+  background-color: #fff;
 }
 .benefitCardsSection .card-img-bg div {
   width: 60px;
@@ -270,25 +290,27 @@
   display: grid;
   place-items: center;
   background-color: #ffecec;
+  /* height: max-content; */
 }
 .benefitCardsSection .benefit-text {
   font-family: "Poppins";
-  margin-left: 6%;
+  margin-left: 5%;
   width: 85%;
+  height: max-content;
 }
 .benefitCardsSection .benefit-text h1 {
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 30px;
   color: #0b132a;
 }
 .benefitCardsSection .benefit-text p {
+  font-family: "Poppins";
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  color: #4f5665;
+  font-weight: 300;
+  line-height: 167.5%;
+  color: #484848;
 }
 
 /* device suit section */
@@ -298,7 +320,7 @@
   align-items: center;
   flex-direction: column;
   background-color: #e5e5e5;
-  padding-bottom: 5%;
+  padding-bottom: 7%;
 }
 .inner-device-suit {
   width: 100%;
@@ -317,7 +339,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  /* font-size: 36px; */
   line-height: 130%;
   text-align: center;
   color: #1b2050;
@@ -325,28 +347,28 @@
 .device-suit-heading p {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 130%;
-  text-align: center;
+  font-weight: 300;
+  line-height: 167.5%;
   color: #1b2050;
+  margin-bottom: 5%;
 }
 .device-suit-photo {
-  width: 80%;
-  margin-top: 5%;
+  width: 70%;
+  margin-top: 3%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  /* background-color: lightcoral; */
   /* position: relative; */
+}
+.device-suit-photo img {
+  width: 95%;
 }
 .device-suit-text {
   width: 100%;
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  background-color: greenyellow;
-  /* align-items: center; */
+  /* background-color: greenyellow; */
   position: relative;
 }
 .device-suit-text h5:nth-child(1) {
@@ -371,12 +393,14 @@
 }
 /* on-boarding section */
 .on-boarding-section {
+  /* margin-top: 2%; */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: hotpink; */
   margin-bottom: 5%;
+  /* background-color: lightcoral; */
 }
 .inner-on-boarding-section {
   width: 100%;
@@ -384,9 +408,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* background-color: lightseagreen; */
 }
 .on-boarding-heading {
-  margin-top: 6%;
+  margin-top: 8%;
   margin-bottom: 3%;
 }
 .on-boarding-heading h1 {
@@ -394,25 +419,37 @@
   font-style: normal;
   font-weight: 600;
   text-align: center;
+  line-height: 130%;
   color: #1b2050;
 }
 .on-boarding-step-div {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   flex-wrap: wrap;
+  /* background-color: lime; */
+  height: max-content;
 }
 .onBoardingCards {
   width: 30%;
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: magenta; */
+  height: max-content;
 }
 .onBoardingCards div:nth-child(1) {
   width: 100%;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
+  display: flex;
+  justify-content: center;
+  /* background-color: mediumblue; */
 }
 .onBoardingCards div:nth-child(1) img {
-  width: 100%;
+  width: 70%;
 }
 .onBoardingCards div:nth-child(2) {
   text-align: center;
@@ -421,6 +458,7 @@
   align-items: center;
   flex-direction: column;
   font-family: "Poppins";
+  margin-top: 3%;
 }
 .onBoardingCards div:nth-child(2) h2::after {
   content: "";
@@ -436,17 +474,18 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.1rem;
   line-height: 30px;
   text-align: center;
   text-transform: uppercase;
   color: #4f5665;
+  margin-bottom: 5%;
 }
 .onBoardingCards p {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
+  font-weight: 300;
+  /* font-size: 20px; */
   line-height: 30px;
   text-align: center;
   color: #4f5665;
@@ -468,7 +507,7 @@
   /* background-color: magenta; */
 }
 .device-feature-heading {
-  margin: 4% 0 1% 0;
+  margin: 9% 0 1% 0;
 }
 .device-feature-heading h1 {
   font-family: "Poppins";
@@ -548,24 +587,35 @@
 }
 .impact-graph-heading {
   text-align: center;
-  margin-top: 6%;
+  margin-top: 7%;
 }
 .impact-graph-heading h1 {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 50px;
+  font-weight: 600;
+  /* font-size: 35px; */
+  line-height: 130%;
   text-align: center;
-  color: #0b132a;
+  color: #1b2050;
   margin-bottom: 20%;
 }
 .impact-graph-heading p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 50px;
+  /* font-size: 18px; */
+  /* line-height: 50px; */
+  line-height: 167.5%;
   text-align: center;
   color: #0b132a;
+}
+.impact-graph-image {
+  /* background-color: #013117; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.impact-graph-image img {
+  height: 40%;
+  width: 40%;
 }

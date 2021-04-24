@@ -6,11 +6,11 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
 }
 
 .mainFaqHeading {
-  margin-top: 5%;
+  /* margin-top: 9%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 5%;
 }
 .innerFaqHeading h1 {
   font-size: 3rem;
@@ -105,7 +106,8 @@ body {
   margin-top: 6%;
 }
 .inner_faq {
-  width: 90%;
+  width: 80%;
+  /* background-color: mediumseagreen; */
 }
 .faq_heading {
   width: 100%;
@@ -145,7 +147,7 @@ body {
   background-color: #ffff !important;
   font-weight: 400 !important;
   font-family: "Poppins";
-  font-size: 24px;
+  font-size: 1.4rem;
   line-height: 150%;
   text-transform: capitalize;
   color: #444760;
@@ -174,7 +176,7 @@ body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  /* font-size: 24px; */
   line-height: 150%;
   text-transform: capitalize;
   color: #878787;

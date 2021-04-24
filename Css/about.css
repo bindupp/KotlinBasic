@@ -40,7 +40,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
+  /* font-size: 24px; */
   line-height: 167.5%;
   text-align: justify;
   color: #484848;
@@ -71,17 +71,19 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  /* font-size: 36px; */
   line-height: 130%;
   color: #1b2050;
   /* background-color: lightblue; */
 }
 .photoSectionPart {
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  /* background-color: lightblue; */
 }
 .photoSectionPart-top {
   display: flex;
@@ -92,8 +94,9 @@
 }
 .photoSectionPart-topInner,
 .photoSectionPart-bottomInner {
-  width: 32%;
+  width: 28%;
   position: relative;
+  margin-right: 1rem;
 }
 .photoSectionPart-text {
   position: absolute;
