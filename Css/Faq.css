@@ -24,27 +24,28 @@ body {
   margin-top: 5%;
 }
 .innerFaqHeading h1 {
-  font-size: 3rem;
   font-family: "Poppins";
+  font-size: 2rem;
   font-style: normal;
-  font-weight: 600;
-  line-height: 150%;
-  text-align: center;
-  color: #444760;
+  font-weight: 500;
+  line-height: 125%;
+  color: #1b2050;
+  /* margin-bottom: 4%; */
 }
 .innerFaqHeading p {
   font-family: "Poppins";
   text-transform: uppercase;
-  font-size: 1.3rem;
+  /* font-size: 0.01rem !important; */
   color: #444760;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .mainSearch {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
   margin-top: 5%;
 }
 .innerSearch {
@@ -106,7 +107,7 @@ body {
   margin-top: 6%;
 }
 .inner_faq {
-  width: 80%;
+  width: 73%;
   /* background-color: mediumseagreen; */
 }
 .faq_heading {
@@ -147,7 +148,7 @@ body {
   background-color: #ffff !important;
   font-weight: 400 !important;
   font-family: "Poppins";
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 150%;
   text-transform: capitalize;
   color: #444760;
@@ -175,9 +176,9 @@ body {
 .accordion-body {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   /* font-size: 24px; */
-  line-height: 150%;
-  text-transform: capitalize;
-  color: #878787;
+  line-height: 167.5%;
+  /* text-transform: capitalize; */
+  color: #484848;
 }
