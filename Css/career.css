@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+.careerSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: hotpink; */
+  padding-bottom: 4%;
+}
+.innerCareerSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.careerSection-heading {
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+.careerSection-heading h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  color: #1b2050;
+}
+.careerSection-content {
+  width: 90%;
+  /* background-color: khaki; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+.careerSection-content-heading {
+  margin-top: 4%;
+  margin-bottom: 3%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  color: #1b2050;
+}
+.careerSection-content-heading h2::after {
+  content: "";
+  height: 2px;
+  width: 100px;
+  /* margin: auto; */
+  /* color: #1b2050; */
+  background-color: #1b2050;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+.career-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.position-cards {
+  width: 30%;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+  padding: 2%;
+  margin-top: 2%;
+  border-radius: 2%;
+}
+.position-cards .position-cards-heading {
+  margin-bottom: 6%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: #1b2050;
+  margin-bottom: 4%;
+}
+.opening-body p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 167.5%;
+  color: #484848;
+  /* margin-bottom: 5%; */
+}
+
+.statusButtons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.statusButtons div {
+  margin-right: 10px;
+}
+.statusButtons div:nth-child(1) p {
+  padding: 0.3rem 1rem;
+  background-color: #1b2050;
+  border-radius: 999px;
+  font-size: 1rem;
+  color: #fff;
+}
+.statusButtons div:nth-child(2) p {
+  padding: 0.3rem 1rem;
+  background-color: #fcf2f2;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1b2050;
+}
