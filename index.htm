@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./Css/Navbar.css">
     <link rel="stylesheet" href="./Css/HomePage.css">
     <link rel="stylesheet" href="./Css/affiliate.css">
+    <link rel="stylesheet" href="./Css/free-for-service.css">
+
     <link rel="stylesheet" href="./Css/owl.carousel.min.css">
     <link rel="stylesheet" href="./Css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -313,8 +315,30 @@
 
     <section class="graph-carousel">
 
+        <div class="inner-impact-graph-section">
+            <div class="impact-graph-heading">
+                <h1>The Orma Impact</h1>
+                <p>p-value&#x3c;2e-16</p>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="impact-graph-image">
+                        <img src="./Images1/graph.png">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="impact-graph-image">
+                        <img src="./Images1/graph.png">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="impact-graph-image">
+                        <img src="./Images1/graph.png">
+                    </div>
+                </div>
+            </div>
 
-
+        </div>
     </section>
 
     <section class="mainFooter">
@@ -381,8 +405,10 @@
     <script>
         $('.owl-carousel').owlCarousel({
             loop: false,
-            margin: 0,
+            margin: 10,
             nav: true,
+            responsiveClass: true,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
             responsive: {
                 0: {
                     items: 1

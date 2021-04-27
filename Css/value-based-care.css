@@ -81,10 +81,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: thistle; */
   background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);
-  margin-bottom: 6%;
-  /* margin-top: 5%; */
 }
 .innerOurPartner {
   width: 100%;
@@ -142,6 +139,39 @@
   color: #333333;
   width: 75%;
   margin-top: 5%;
+}
+/* info graphi section */
+.infoGraphSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #fdfbfb 0%, #eceeef 99.99%, #ebedee 100%);
+  padding-bottom: 3%;
+}
+.inner-infoGraph {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infoGraph-heading {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.infoGraph-heading h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  color: #1b2050;
+  margin-bottom: 4%;
+}
+.infoGraph-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Why Partner with us  */

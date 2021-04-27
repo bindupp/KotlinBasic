@@ -373,8 +373,57 @@ body {
   width: 100%;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  /* background-color: grey; */
+  /* margin-top: -1%; */
+  padding-bottom: 3%;
+  background: #fafafa;
 }
+.graph-carousel .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.graph-carousel .item img {
+  width: 50% !important;
+}
+
+.owl-nav {
+  /* z-index: 1; */
+  /* bottom: 0; */
+  display: flex;
+  justify-content: center;
+}
+.owl-nav button {
+  /* position: absolute; */
+  width: 2rem;
+  height: 2rem;
+  background-color: #ebe9e9 !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  /* bottom: 0; */
+}
+.owl-nav button:focus {
+  outline: none !important;
+}
+.owl-nav button:hover span {
+  color: #000 !important;
+}
+.owl-nav button span {
+  font-size: 1.3rem !important;
+}
+
+.owl-dots .owl-dot span {
+  background-color: #a9cfff !important;
+}
+.owl-dots .owl-dot.active span {
+  background-color: #475786 !important;
+}
+.owl-dots button:focus {
+  outline: none !important;
+}
+
 /* old carousel */
 .mainTestimonial {
   width: 100%;
@@ -486,7 +535,7 @@ body {
   z-index: 999;
   bottom: -10%;
 }
-
+/* 
 .owl-nav {
   z-index: 1;
   bottom: 0;
@@ -527,7 +576,7 @@ body {
 }
 .owl-dots button:focus {
   outline: none !important;
-}
+} */
 
 .mainServices {
   width: 100%;
