@@ -220,8 +220,8 @@
 .revenue-points .revenue-points-div p {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
-  line-height: 36px;
+  font-weight: 300;
+  line-height: 2rem;
   color: #333333;
 }
 

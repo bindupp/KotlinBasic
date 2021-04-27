@@ -42,6 +42,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: 167.5%;
+  text-align: justify;
   color: #484848;
   margin-bottom: 5%;
 }
@@ -232,7 +233,7 @@
   padding: 1rem;
 }
 .partnerImage img {
-  width: 100%;
+  width: 65%;
   object-fit: contain;
   mix-blend-mode: multiply;
 }
@@ -251,6 +252,8 @@
   line-height: 167.5%;
   color: #484848;
   margin-bottom: 5%;
+  width: 80%;
+  /* was not here */
 }
 .partnerText ul {
   margin: 2rem 0;

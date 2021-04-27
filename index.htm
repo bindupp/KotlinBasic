@@ -19,6 +19,7 @@
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script> -->
 
 </head>
 
@@ -47,11 +48,11 @@
                         </a>
 
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a href="./free-for-services.html">Free-For-Service</a></li>
+                            <li><a href="./free-for-services.html">Fee-For-Service</a></li>
                             <li><a href="./value-based-care.html">Value-Based-Care</a></li>
                         </ul>
                     </div>
-                    <li class="nav-link"><a href="#">Blog</a></li>
+                    <li class="nav-link"><a href="#">Resources</a></li>
                     <li class="nav-link"><a href="./about.html">About</a></li>
                     <li class="nav-link"><a href="./affiliate.html">Affiliate</a></li>
                     <li class="nav-link"><a href="./careers.html">Careers</a></li>
@@ -68,23 +69,19 @@
         <div class="innerLanding">
             <div class="contentArea">
                 <div>
-                    <h1 class="multipleStrings">The Missing Piece for
-                        Managing Chronic Conditions</h1>
+                    <h1>
+                        The Missing Piece for <span id="changeText"></span>
+                    </h1>
                     <p>With its network of connected devices and proprietary analytics, Orma Health is revolutionizing
                         the remote care paradigm
                         for Providers, Payers and Patients.</p>
                 </div>
                 <div>
                     <button class="btn-1">Learn More</button>
-                    <div class="modal" tabindex="-1" role="dialog" id="mymodal">
-                        <div class="modal-dialog" role="document">
+                    <button class="btn-2" data-toggle="modal" data-target="#mymodal">Request a Demo</button>
+                    <div class="modal fade" id="mymodal">
+                        <div class="modal-dialog">
                             <div class="modal-content">
-                                <!-- <div class="modal-header">
-                                    <h5 class="modal-title">Modal title</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div> -->
                                 <div class="modal-body">
                                     <div class="earningForm-part">
                                         <div class="form-box">
@@ -137,14 +134,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div> -->
                             </div>
                         </div>
                     </div>
-                    <button class="btn-2" data-toggle="modal" data-target="#mymodal">Request a Demo</button>
                 </div>
             </div>
             <div class="imageArea">
@@ -229,9 +221,10 @@
             </div>
             <div class="innerFourSection-right">
                 <h1>Fee For Service</h1>
-                <p>Leverage the Orma Health platform to grow your practice revenue with Centre for Medicare and with the
-                    Centre for Medicare for remote care.<br><br>
-                    <p> We’d be happy to talk to you and guide you through the process</p>
+                <p> Leverage the Orma Health Platform to grow practice revenue with reimbursements from Centre for
+                    Medicare
+                    and Medicaid<br><br>
+                    <p>Schedule a demo with us today and we'd be happy to guide you through the process</p>
                 </p><br>
                 <button>Request a Demo</button>
             </div>
@@ -241,8 +234,8 @@
         <div class="innerFiveSection">
             <div class="innerFiveSection-left">
                 <h1>Value-Based Care</h1>
-                <p>We support Risk-bearing Entities in transforming their current business model to a value-based model,
-                    uniquely delivered through data-driven remote monitoring solutions
+                <p>We support Risk-Bearing Entities to transition to a value-based healthcare model, uniquely delivered
+                    through data-driven remote monitoring solutions
                 </p><br>
                 <button>Learn More</button>
             </div>
@@ -254,7 +247,7 @@
 
 
 
-    <section class="mainTestimonial">
+    <!-- <section class="mainTestimonial">
         <div class="innerTestimonial">
             <img class="rightDots" src="./Images/dots.png" alt="">
             <div class="testimonialHeading">
@@ -316,6 +309,12 @@
             </div>
 
         </div>
+    </section> -->
+
+    <section class="graph-carousel">
+
+
+
     </section>
 
     <section class="mainFooter">
@@ -348,7 +347,7 @@
                     </p>
                 </div>
                 <div class="copyrights">
-                    <p>©Orma Health LTD 2020. All rights reserved</p>
+                    <p>©Orma Health Inc 2020. All rights reserved</p>
                 </div>
             </div>
             <div class="footerMaps">
@@ -356,8 +355,13 @@
                     <h2>Company</h2>
                     <ul>
                         <li><a href="./index.htm" style="text-decoration: none; color: white;">Home</a></li>
+                        <li><a href="#" style="text-decoration: none; color: white;">Resources</a></li>
                         <li><a href="./about.html" style="text-decoration: none; color: white;">About</a></li>
-                        <li><a href="#" style="text-decoration: none; color: white;">Blogs</a></li>
+
+                        <li><a href="./affiliate.html" style="text-decoration: none; color: white;">Affiliate</a></li>
+                        <li><a href="./careers.html" style="text-decoration: none; color: white;">Careers</a></li>
+                        <li><a href="./Faq.htm" style="text-decoration: none; color: white;">FAQs</a></li>
+
                     </ul>
                 </div>
                 <div class="footerMapImage">
@@ -368,12 +372,11 @@
     </section>
 
     <script src="./Js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./Js/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
-        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
     </script>
     <script>
         $('.owl-carousel').owlCarousel({
@@ -391,29 +394,28 @@
                     items: 1
                 }
             }
-        })
+        });
+    </script>
 
-        // const header = document.querySelector('.main-header')
-        // window.addEventListener('scroll', () => {
-        //     const scrollPosition = window.scrollY
-        //     if (scrollPosition > 10)
-        //         header.classList.add('scrolled')
-        //     else
-        //         header.classList.remove('scrolled')
-        // })
-    </script>
     <script>
-        new TypeIt(".multipleStrings", {
-                    strings: [" Managing Chronic Conditions.", "Completing Care Continuum.", "Preventing Unnecessary
-                        Hospitalization ","
-                        Enabling Virtual Wellness Visits.
-                        ","
-                        Improving Practice Finance.
-                        "],
-                        speed: 50,
-                        waitUntilVisible: true
-                    }).go();
+        var text = ["Managing Chronic Conditions", "Completing Care Continuum",
+            "Preventing Unnecessary Hospitalization", "Enabling Virtual Wellness Visits",
+            "Improving Practice Finance "
+        ];
+        var counter = 0;
+        var elem = document.getElementById("changeText");
+        var inst = setInterval(change, 2000);
+
+        function change() {
+            elem.innerHTML = text[counter];
+            counter++;
+            if (counter >= text.length) {
+                counter = 0;
+                // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+            }
+        }
     </script>
+
 </body>
 
 </html>
