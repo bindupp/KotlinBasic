@@ -173,6 +173,9 @@
   justify-content: center;
   align-items: center;
 }
+.infoGraph-content img {
+  height: 80rem !important;
+}
 
 /* Why Partner with us  */
 
